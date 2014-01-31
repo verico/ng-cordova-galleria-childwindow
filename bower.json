@@ -1,0 +1,15 @@
+{
+    "name": "ng-cordova-galleria-childwindow",
+    "version": "0.0.1",
+    "main": "./galleriaService.js",
+    "ignore": [
+        "README.md"
+    ],
+    "dependencies": {
+        "angular" :  ">=1.0.8",
+        "underscore" : "latest",
+        "ng-galleria": "latest",
+        "jquery" : "latest"
+    },
+    "description": "Angular cordova service for opening a childwindow with an galleria imageViewer"
+}
