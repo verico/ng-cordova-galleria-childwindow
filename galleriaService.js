@@ -1,9 +1,9 @@
 angular.module('com.verico.ng-cordova-galleria-childwindow', []).
     service('ngCordovaGalleriaChildwindow', function() {
 
-        var openChildWindow = function(windowUrl, images){
+        var openChildWindow = function(images){
 
-            var ref = window.open(windowUrl, '_blank', 'EnableViewPortScale=yes,location=no');
+            var ref = window.open('bower_components/ng-cordova-galleria-childwindow/galleria-childwindow.html', '_blank', 'EnableViewPortScale=yes,location=no');
 
             var loadstop = function() {
                 ref.executeScript({ code: 'init(\'' +JSON.stringify(images) + '\');' });
