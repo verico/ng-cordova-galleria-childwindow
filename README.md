@@ -1,0 +1,1 @@
+Angular service for opening childwindow with galleria directive
