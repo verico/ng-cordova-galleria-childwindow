@@ -6,10 +6,10 @@
         "README.md"
     ],
     "dependencies": {
-        "angular" :  ">=1.0.8",
+        "angular": "1.2.14",
         "underscore" : "latest",
         "ng-galleria": "latest",
-        "jquery" : "latest"
+        "jquery": "2.1.0"
     },
     "description": "Angular cordova service for opening a childwindow with an galleria imageViewer"
 }
